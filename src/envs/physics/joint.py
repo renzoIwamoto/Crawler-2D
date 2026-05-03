@@ -1,5 +1,5 @@
 import numpy as np
-from rigid_body import RigidBody
+from src.envs.physics.rigid_body import RigidBody
 
 class Joint:
     def __init__(self, body_a: RigidBody, body_b: RigidBody,
